@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+    nav {
+        font-size: 2em;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px 0;
+
+        .home {
+            background-color: yellow;
+        }
+        .services{
+            background-color: yellowgreen;
+        }
+        .about-us{
+            background-color: orangered;
+        }
+        .contact{
+            background-color: orchid;
+        }
+    }
+    main {
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+}

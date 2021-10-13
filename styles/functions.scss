@@ -1,0 +1,18 @@
+$theme-color: (
+    primary: #edf8f0,
+    secondary: #2d4140,
+    accent: #63cdd7,
+);
+
+@function color($color-type){
+    @return map-get($theme-color, $color-type);
+}
+
+body {
+    background-color: (color(primary));
+    color: (color(secondary));
+
+    input {
+        color: (color(accent));
+    }
+} 

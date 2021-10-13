@@ -1,0 +1,14 @@
+$theme-color: (
+    primary: #edf8f0,
+    secondary: #2d4140,
+    accent: #63cdd7,
+);
+
+body {
+    background-color: map-get($theme-color, primary);
+    color: map-get($theme-color, secondary);
+
+    input {
+        color:  map-get($theme-color, accent);
+    }
+}
